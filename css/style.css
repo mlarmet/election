@@ -1,0 +1,36 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+main {
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: min(450px, 100%);
+}
+
+#form-input {
+	/* border: 1px solid #aaa; */
+	box-shadow: 0 0 20px 2px rgb(192, 211, 247);
+	border-radius: 5px;
+	padding: 1.5em 1em;
+	overflow: hidden;
+	width: 100%;
+}
+
+#submit-form {
+	margin-top: 2.5em;
+	float: right;
+}
+
+label {
+	min-width: max-content;
+}
+
+.div-input {
+	align-items: center;
+	justify-content: space-between;
+}
